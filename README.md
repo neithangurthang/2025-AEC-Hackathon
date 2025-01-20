@@ -27,7 +27,21 @@ The graph representation of the generic floorplan is compared to a reference des
 The generic floorplan is populated with compatible elements from the Kit-of-Parts, adapting it to meet the requirements of industrialized construction. This step ensures the design remains functional while adhering to predefined modular standards.
 
 ### Available Material
-*(Content to be added later)*
+The output of Step 1 is a JSON file that represents each floorplan in a structured format. The JSON file contains the following hierarchy:
+
+- **Panels**
+  - Attributes (general metadata)
+  - Items (detailed specifications for each panel)
+    - Panel type
+    - Start and end points
+    - Height and thickness
+    - Associated room and apartment
+- **Spaces**
+  - Room type
+  - Apartment information
+  - Coordinates defining the space boundaries
+
+This structured data enables efficient processing and analysis of floorplans, forming the foundation for subsequent steps in the workflow.
 
 ### Team
 - **Evangelos Pantazis** / ZHAW - Senior Researcher  
