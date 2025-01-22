@@ -47,7 +47,7 @@ This structured data enables efficient processing and analysis of floorplans, fo
 - **Evangelos Pantazis** / ZHAW - Senior Researcher  
 - **Jianpeng Cao** / HKU - Assistant Professor in the Department of Real Estate and Construction  
 - **Konrad Graser** / ZHAW - Research/Program Manager  
-- **Furio Sondrini** / Implenia - Digital Design and Innovation Manager  
+- **Furio Sordini** / Implenia - Digital Design and Innovation Manager  
 - **Giulia Curletto** / Implenia - Digital Design and Innovation Manager
 
 ### Funding Partner
