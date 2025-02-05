@@ -27,7 +27,14 @@ The graph representation of the generic floorplan is compared to a reference des
 The generic floorplan is populated with compatible elements from the Kit-of-Parts, adapting it to meet the requirements of industrialized construction. This step ensures the design remains functional while adhering to predefined modular standards.
 
 ### Available Material
-The output of Step 1 is a JSON file that represents each floorplan in a structured format. The JSON file contains the following hierarchy:
+
+1.	JSON file, lists the bill of materials of the floor plan
+2.	IFC file, shows the 3D geometry
+3.	PDF file, shows the raw image 
+4.	PNG file, indicates room information on the floorplan (which matches the information in the JSON and GraphML)
+5.	GraphML file, reads the JSON file and represents the floor plan in a graph (which could be visualized in the free and open-source application Cytoscape https://cytoscape.org/.)
+
+The JSON file contains the following hierarchy:
 
 - **Panels**
   - Attributes (general metadata)
