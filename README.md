@@ -42,6 +42,7 @@ The output of Step 1 is a JSON file that represents each floorplan in a structur
   - Coordinates defining the space boundaries
 
 This structured data enables efficient processing and analysis of floorplans, forming the foundation for subsequent steps in the workflow.
+The .graphml file is the graph representation of the JSON file, which could be visualized in the free and open-source application Cytoscape https://cytoscape.org/.
 
 ### Team
 - **Evangelos Pantazis** / ZHAW - Senior Researcher  
